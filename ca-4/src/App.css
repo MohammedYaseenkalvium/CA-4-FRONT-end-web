@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  color: #840032;
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  -webkit-text-stroke:1.5px #E59500 ;
+  }
+ .navbar{
+  display: flex;
+  justify-content: space-between;
+ }
+ button{
+  height: 45px;
+ }
+ .theme{
+  color: #E5DADA;
+  text-align: center;
+  font-family: Inter;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  -webkit-text-stroke:1.5px #E59500 
+  
+ }
+ body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease;
+}
+.app{
+  height: 100vh;
+}
+.theme{
+  margin-top: 15px;
+}
+.questions{
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+  height: 80vh;
+  padding-top: 15px;
+  border-radius: 15px;
+}
+.options{
+  width: 90%;
+  height: 15vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10%;
+  height: 25vw;
+  margin: auto;
+}
+.option{
+  border-radius: 15px;
+  color: #E59500;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: auto;
+  background-color: #002642;;
+}
+.highlights{
+ display: flex;
+ justify-content: space-between;
+}
+button{
+  border-radius: 15px;
+}
+.qn{
+  text-align: center;
+  font-family: Inter;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal
+}
+.questions{
+  padding-top: 15px auto;
+}
+.highbtn{
+  color: #F5F5F5;
+  text-align: center;
+  text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.50);
+  font-family: Nirmala UI;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: 7vh;
+  padding: auto;
+  background-color: #C20000;;
+}
+.msg{
+  color: #840032;
+  text-align: center;
+  font-family: Nirmala UI;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 15px auto;
+}
+.retry{
+  color: #F5F5F5;
+  text-align: center;
+  text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.50);
+  font-family: Nirmala UI;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: 7vh;
+  padding: auto;
+  background-color: #C20000;;
+}
+@media screen and (max-width:425px){
+  .logo{
+    font-size: 24px;
+  } 
+  .button{
+    height: 30px;
+   }
+  .app{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .options{
+    height: 15vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10%;
+    height: 25vw;
+    margin: auto;
+    margin-left: -12px;
+    margin-top: 15px;
+  }
+  .option{
+    border-radius: 15px;
+    color: #E59500;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    width: 80%;
+    font-weight: 600;
+    line-height: normal;
+    padding: auto;
+    background-color: #002642;;
+    margin: auto;
+    margin-left: 60px;
+    
+  }
+  .qn{
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  .highlights{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+   }
+   .headings{
+    font-size: 25px;
+   }
+   .highbtn{
+    font-size: 10px;
+    margin-left: 60px;
+    padding: 10 auto;
+   }
+   .msg{
+    font-size: 25px;
+   }
+   .theme{
+    font-size: 15px;
+   }
+
+}
